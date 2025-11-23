@@ -30,26 +30,32 @@ A simple PHP user management system with:
 
 ## Project Structure
 
-/admin
-admin.php
-admin_serch.php
-see_admin.php
-delete_admin.php
-edit_admin.php
-update_admin.php
-
-/model_crud
-database.php
-check.php
-table.php
-
-/public
-LogIn.php
-Register.php
-profile_login.php
-
-/image_users
-/style
+.
+├── Admin
+│   ├── admin_serch.php
+│   ├── admin.php
+│   ├── delete_admin.php
+│   ├── edit_admin.php
+│   ├── see_admin.php
+│   └── update_admin.php
+├── image_users
+├── model_crud
+│   ├── check.php
+│   ├── database.php
+│   ├── delete.php
+│   ├── insert.php
+│   ├── select.php
+│   ├── table.php
+│   └── update.php
+├── public
+│   ├── edit_profile.php
+│   ├── login.php
+│   ├── profile_login.php
+│   ├── profile_update.php
+│   ├── profile.php
+│   └── Register.php
+└── style
+    └── style.css
 
 
 ---
