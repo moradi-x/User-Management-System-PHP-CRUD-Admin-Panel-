@@ -36,12 +36,12 @@ Open your browser and visit:
 
 ## Database connection settings are in these files:
 
-database.php
-delete.php
-select.php
-table.php
-edit.php
-profile_login.php
+``database.php``
+``delete.php``
+``select.php``
+``table.php``
+``edit.php``
+``profile_login.php``
 
 Default configuration:
 ```
